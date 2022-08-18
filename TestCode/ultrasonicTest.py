@@ -10,47 +10,41 @@ right_trig = 23
 right_echo = 24
 
 GPIO.setup(left_trig, GPIO.OUT)
-GPIO.setup(left_echo, GPIO.IN)
-
 GPIO.setup(right_trig, GPIO.OUT)
+
+GPIO.setup(left_echo, GPIO.IN)
 GPIO.setup(right_echo, GPIO.IN)
 
-try:
-    while True:
-        GPIO.output(left_trig, False)
+
+def dist(trig, echo):
+    try:
+        GPIO.output(trig, False)
         time.sleep(0.5)
-
-        GPIO.output(right_trig, False)
-        time.sleep(0.5)
-
-        GPIO.output(left_trig, True)
+        GPIO.output(trig, True)
         time.sleep(0.0001)
-        GPIO.output(left_trig, False)
+        GPIO.output(trig,False)
 
-        GPIO.output(right_trig, True)
-        time.sleep(0.0001)
-        GPIO.output(right_trig, False)
 
-        while GPIO.input(left_echo)==0:
-            le_pulse_start = time.time()
+        while GPIO.input(echo)==0:
+            pulse_start = time.time()
 
-        while GPIO.input(left_echo)==1:
-            le_pulse_end = time.time()
-        
-        while GPIO.input(right_echo)==0:
-            ri_pulse_start = time.time()
+        while GPIO.input(echo)==1:
+            pulse_end = time.time()
 
-        while GPIO.input(right_echo)==1:
-            ri_pulse_end = time.time()
-        
-        le_pulse_duration = le_pulse_end - le_pulse_start
-        ri_pulse_duration = ri_pulse_end - ri_pulse_start
-        le_distance = le_pulse_duration * 17000
-        ri_distance = ri_pulse_duration * 17000
-        le_distance = round(le_distance,2)
-        ri_distance = round(ri_distance,2)
+        pulse_duration = pulse_end - pulse_start
+        distance = pulse_duration * 17000
+        distance = round(distance, 2)
 
-        print("LEFT distance : ", le_distance, "cm  ", "RIGHT distance : ", ri_distance, "cm ")
+        if (trig == left_trig):
+            print("Left distance: ", distance, " cm")
+        else :
+            print("Right distance: ", distance, " cm")
 
-except KeyboardInterrupt:
-    GPIO.cleanup()
+    except KeyboardInterrupt:
+        GPIO.cleanup()
+
+while True:
+#        print("left distance")
+        dist(left_trig, left_echo)
+#       print("right distance")
+        dist(right_trig, right_echo)
