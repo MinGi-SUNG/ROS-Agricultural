@@ -108,3 +108,9 @@ class count_right_fruits:
         for i in range(0,4):
             self.right_store_fruits[i][0] = self.right_store_fruits[i][0] + temp[i][0]
             self.right_store_fruits[i][1] = self.right_store_fruits[i][1] + temp[i][1]
+
+if __name__=="__main__":
+    left = count_left_fruits()
+    right = count_right_fruits()
+    print(left.left_store_fruits)
+    print(right.right_store_fruits)
