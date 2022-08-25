@@ -12,15 +12,13 @@ for col in range(len(oneSide)):
         oneSide[col][row] = num
     num += 1
 
-    
-#REAL DATA SORTING START
 #0-3번 과수 ,4-7 과수 왼쪽
 for i in range(8):
     for j in range(2):
         total[i][j] = oneSide[i][j]
 
 #8-11 과수 왼쪽
-i=9
+i=8
 for k in range(8,12):
     for j in range(2):
         total[k][j] = oneSide[i][j]
@@ -38,10 +36,10 @@ for i in range(0,8):
         oneSide[i][j]=0
 
 for j in range(2):
-    oneSide[1][j] = oneSide[14][j]
-    oneSide[3][j] = oneSide[12][j]
-    oneSide[5][j] = oneSide[10][j]
-    oneSide[7][j] = oneSide[8][j]
+    oneSide[1][j] = oneSide[15][j]
+    oneSide[3][j] = oneSide[13][j]
+    oneSide[5][j] = oneSide[11][j]
+    oneSide[7][j] = oneSide[9][j]
     oneSide[8][j] = oneSide[22][j]
     oneSide[9][j] = oneSide[20][j]
     oneSide[10][j] = oneSide[18][j]
@@ -90,7 +88,7 @@ for i in range(0,16):
 
 f = open('ex.txt', 'w')
 for i in range(0,16):
-        data = "%dth\n" % (i+1)
+        data = "%dth normal|disease \n" % (i+1)
         f.write(data)
 
 final = open('fruitData.txt','w')
