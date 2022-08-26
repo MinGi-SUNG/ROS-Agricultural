@@ -4,16 +4,16 @@ from detection_msgs.msg import BoundingBoxes
 
 point_1 = [0.3458243520930942, 0.300026188169096, 0.7118179508158713, 0.7023640116750671]
 point_2 = [0.33226260798655033, 0.793989172685527, 0.7101006407629823, 0.7041001917255825]
-point_3 = [0.3675446268195606, 1.0522210161642764, 0.6988597872148938, 0.715258692931413]
-point_4 = [0.3559700612411263, 1.252957380530777, 0.7234542222897506, 0.6903723547848161]
+point_3 = [0.336549087738421, 1.0433756843422264, 0.7054060238993953, 0.7088034575581905]
+point_4 = [0.33745779445936674, 1.2993974382926154, 0.6967426618160805, 0.7173211715859521]
 point_5 = [0.9360162491430987, 1.4042942998545676, -0.7281633426560493, 0.6854036375829712]
-point_6 = [0.9225821606404762, 1.2014037770427746, -0.7332120319008505, 0.6800000854969257]
-point_7 = [0.885864804891293, 0.8001815056501693, -0.7458937121655593, 0.6660649894356269]
-point_8 = [0.8624954249733435, 0.5985026748388733, -0.7503769339072462, 0.6610101792408043]
-point_9 = [1.467515392151751, 0.3562987097651186, 0.6816482446039128, 0.7316800329573059]
-point_10 = [1.4851977588557084, 0.5892779632001173, 0.6784597963972586, 0.7346375328504462]
-point_11 = [1.5290351522300707, 1.0640185250550112, 0.675525157506783, 0.7373369389739239]
-point_12 = [1.550165613207711, 1.298339546550991, 0.6763544292067071, 0.7365763274043428]
+point_6 = [0.9676714284011307, 1.1124147573720116, -0.6545859617152052, 0.7559875784200293]
+point_7 = [1.0012134875460368, 0.8880914536287361, -0.6571213109779029, 0.753784838437788]
+point_8 = [1.0414035190834385, 0.48345834259302795, -0.6578621844792023, 0.7531383314054941]
+point_9 = [1.4932274084450738, 0.33622629277772825, 0.6541658939362884, 0.7563510978444711]
+point_10 = [1.5480644350553368, 0.5493692951016244, 0.6133336338165859, 0.7898239383744595]
+point_11 = [1.6682910444702184, 0.9838744270282291, 0.6114283189479557, 0.7912998235741475]
+point_12 = [1.7243428025705165, 1.2019048433010475, 0.6099441349519815, 0.7924444158662984]
 
 
 def odom_callback(msg):
@@ -21,6 +21,7 @@ def odom_callback(msg):
     global pose_orientation
     pose_position = msg.pose.pose.position
     pose_orientation = msg.pose.pose.orientation
+
 
 def left_callback(data):
     global left_fruit
@@ -55,7 +56,7 @@ img_left = None
 pose_position = None
 pose_orientation = None
 
-rate = rospy.Rate(3.5)
+rate = rospy.Rate(5.5)
 # rospy.init_node("read_pose")
 sub = rospy.Subscriber('/amcl_pose', PoseWithCovarianceStamped, odom_callback)
 
@@ -91,9 +92,6 @@ while not rospy.is_shutdown():
 
         if (point_1[0] - 0.05 < x < point_1[0] + 0.05) and (
                 point_1[1] - 0.1 < y < point_1[1] + 0.3):
-
-            # left_fruit.append([cnt_d_left, cnt_d_left])
-            # right_fruit.append([cnt_d_right, cnt_d_right])
             left_fruit[0][0] = cnt_n_left
             left_fruit[0][1] = cnt_d_left
             right_fruit[0][0] = cnt_n_right
@@ -101,11 +99,79 @@ while not rospy.is_shutdown():
 
         if (point_2[0] - 0.05 < x < point_2[0] + 0.05) and (
                 point_2[1] - 0.1 < y < point_2[1] + 0.3):
-
             left_fruit[1][0] = cnt_n_left
             left_fruit[1][1] = cnt_d_left
             right_fruit[1][0] = cnt_n_right
             right_fruit[1][1] = cnt_d_right
+
+        if (point_3[0] - 0.05 < x < point_3[0] + 0.05) and (
+                point_3[1] - 0.1 < y < point_3[1] + 0.3):
+            left_fruit[2][0] = cnt_n_left
+            left_fruit[2][1] = cnt_d_left
+            right_fruit[2][0] = cnt_n_right
+            right_fruit[2][1] = cnt_d_right
+
+        if (point_4[0] - 0.05 < x < point_4[0] + 0.05) and (
+                point_4[1] - 0.1 < y < point_4[1] + 0.3):
+            left_fruit[3][0] = cnt_n_left
+            left_fruit[3][1] = cnt_d_left
+            right_fruit[3][0] = cnt_n_right
+            right_fruit[3][1] = cnt_d_right
+
+        if (point_5[0] - 0.05 < x < point_5[0] + 0.05) and (
+                point_5[1] - 0.1 < y < point_5[1] + 0.3):
+            left_fruit[4][0] = cnt_n_left
+            left_fruit[4][1] = cnt_d_left
+            right_fruit[4][0] = cnt_n_right
+            right_fruit[4][1] = cnt_d_right
+
+        if (point_6[0] - 0.05 < x < point_6[0] + 0.05) and (
+                point_6[1] - 0.1 < y < point_6[1] + 0.3):
+            left_fruit[5][0] = cnt_n_left
+            left_fruit[5][1] = cnt_d_left
+            right_fruit[5][0] = cnt_n_right
+            right_fruit[5][1] = cnt_d_right
+
+        if (point_7[0] - 0.05 < x < point_7[0] + 0.05) and (
+                point_7[1] - 0.1 < y < point_7[1] + 0.3):
+            left_fruit[6][0] = cnt_n_left
+            left_fruit[6][1] = cnt_d_left
+            right_fruit[6][0] = cnt_n_right
+            right_fruit[6][1] = cnt_d_right
+
+        if (point_8[0] - 0.05 < x < point_8[0] + 0.05) and (
+                point_8[1] - 0.1 < y < point_8[1] + 0.3):
+            left_fruit[7][0] = cnt_n_left
+            left_fruit[7][1] = cnt_d_left
+            right_fruit[7][0] = cnt_n_right
+            right_fruit[7][1] = cnt_d_right
+
+        if (point_9[0] - 0.05 < x < point_9[0] + 0.05) and (
+                point_9[1] - 0.1 < y < point_9[1] + 0.3):
+            left_fruit[8][0] = cnt_n_left
+            left_fruit[8][1] = cnt_d_left
+            right_fruit[8][0] = cnt_n_right
+            right_fruit[8][1] = cnt_d_right
+
+        if (point_10[0] - 0.05 < x < point_10[0] + 0.05) and (
+                point_10[1] - 0.1 < y < point_10[1] + 0.3):
+            left_fruit[9][0] = cnt_n_left
+            left_fruit[9][1] = cnt_d_left
+            right_fruit[9][0] = cnt_n_right
+            right_fruit[9][1] = cnt_d_right
+        if (point_11[0] - 0.05 < x < point_11[0] + 0.05) and (
+                point_11[1] - 0.1 < y < point_11[1] + 0.3):
+            left_fruit[10][0] = cnt_n_left
+            left_fruit[10][1] = cnt_d_left
+            right_fruit[10][0] = cnt_n_right
+            right_fruit[10][1] = cnt_d_right
+
+        if (point_12[0] - 0.05 < x < point_12[0] + 0.05) and (
+                point_12[1] - 0.1 < y < point_12[1] + 0.3):
+            left_fruit[11][0] = cnt_n_left
+            left_fruit[11][1] = cnt_d_left
+            right_fruit[11][0] = cnt_n_right
+            right_fruit[11][1] = cnt_d_right
 
     print("left_fruit: ", left_fruit)
     print("right_fruit: ", right_fruit)
