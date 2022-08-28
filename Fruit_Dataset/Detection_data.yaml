@@ -1,5 +1,0 @@
-train: C:\Users\untitle\Downloads\yolov5-master\yolov5-master\data\Detection_data\train\images
-val: C:\Users\untitle\Downloads\yolov5-master\yolov5-master\data\Detection_data\valid\images
-
-nc: 3
-names: ['disease fruit', 'normal fruit', 'obstacle']
