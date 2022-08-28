@@ -6,4 +6,4 @@ pip install -r .\requirements.txt
 
 #러닝 코드
 
-python train.py --img 416 --batch 8 --epochs 100 --data Fruitdata\data.yaml --cfg ./models/yolov5s.yaml --weight yolov5s.pt --name Dataset_results
+python train.py --img 416 --batch 8 --epochs 100 --data Detection_data\data.yaml --cfg ./models/yolov5s.yaml --weight yolov5s.pt --name Detection_data_results_3
