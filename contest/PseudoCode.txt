@@ -22,8 +22,10 @@ Algorithm Image_Processing(Q, N, D, S) :
             Current Coordinate Sequence S = (X, Y, Z, W)
     Output : Image Process results
 
-    Q' <- Q.dequeue()
+    P <- [None]
 
-    while not rospy.is_shutdown() :
-        if Q' = S :
-            do count N, D
+    for position in Q :
+        if position = S :
+            P.add([N, D])
+    
+    return P
