@@ -3,10 +3,10 @@ import string
 from geometry_msgs.msg import PoseWithCovarianceStamped
 from detection_msgs.msg import BoundingBoxes
 
-point_1 = [0.3458243520930942, 0.300026188169096, 0.7118179508158713, 0.7023640116750671]
-point_2 = [0.3458243520930942, 0.793989172685527, 0.7101006407629823, 0.7041001917255825]
-point_3 = [0.3458243520930942, 1.0433756843422264, 0.7054060238993953, 0.7088034575581905]
-point_4 = [0.3458243520930942, 1.2993974382926154, 0.6967426618160805, 0.7173211715859521]
+point_1 = [0.3282404141007296, 0.4556287558516575, 0.7118179508158713, 0.7023640116750671]
+point_2 = [0.3282404141007296, 0.7498444675385731, 0.7101006407629823, 0.7041001917255825]
+point_3 = [0.3282404141007296, 0.9520017532710141, 0.7054060238993953, 0.7088034575581905]
+point_4 = [0.3282404141007296, 1.35980944022464, 0.6967426618160805, 0.7173211715859521]
 point_5 = [0.9428930232051557, 1.4042942998545676, -0.7281633426560493, 0.6854036375829712]
 point_6 = [0.9428930232051557, 1.1124147573720116, -0.6545859617152052, 0.7559875784200293]
 point_7 = [0.9428930232051557, 0.8880914536287361, -0.6571213109779029, 0.753784838437788]
@@ -57,6 +57,10 @@ img_right = None
 img_left = None
 pose_position = None
 pose_orientation = None
+cnt_n_left = None
+cnt_d_left = None
+cnt_n_right = None
+cnt_d_right = None
 
 rate = rospy.Rate(5.35)
 sub = rospy.Subscriber('/amcl_pose', PoseWithCovarianceStamped, odom_callback)
@@ -202,9 +206,8 @@ for i in range(16):
     for j in range(2):
         fruits[i][j] = str(fruits[i][j])
 
-f = open("store_fruits_count.txt", 'w')
+f = open("Untitled_fruittree_store.txt", 'w')
 f.write("tree_number / normal_fruit / disease_fruit\n")
 for i in range(16):
     f.write(str(i + 1) + " / " + fruits[i][0] + " / " + fruits[i][1] + "\n")
 f.close()
-
