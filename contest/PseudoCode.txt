@@ -1,0 +1,29 @@
+Algorithm Auto_drive(Q, S) :
+    Input : Check point Queue Q = ( (X1, Y1, Z1, W1), ...)
+            Current Coordinate Sequence S = (X, Y, Z, W)
+    Output : Move Turtlebot to Next Coordinate 
+    
+    if Q.is_empty() :
+        return
+
+    Q' <- Q.dequeue()
+
+    if not Q' = S :
+        do Move Turtlebot to Next Coordinate
+    else :
+    Auto_drive(Q, S)
+
+
+
+Algorithm Image_Processing(Q, N, D, S) :
+    Input : Check point Queue Q = ( (X1, Y1, Z1, W1), ...)
+            Normal fruit Bounding Box N
+            Disease fruit Bounding Box D
+            Current Coordinate Sequence S = (X, Y, Z, W)
+    Output : Image Process results
+
+    Q' <- Q.dequeue()
+
+    while not rospy.is_shutdown() :
+        if Q' = S :
+            do count N, D
