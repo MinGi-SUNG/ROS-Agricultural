@@ -49,3 +49,7 @@
 
 
 >### 프로젝트 계획표
+* 본선 준비기간 : 2022.07.25. ~ 2022.09.01. 
+![image](https://user-images.githubusercontent.com/89721794/209088416-4fbfd9d8-2b6e-491d-98e4-5ddc0df8355b.png)
+
+
