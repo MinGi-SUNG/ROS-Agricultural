@@ -52,7 +52,7 @@
 |![image](https://user-images.githubusercontent.com/89721794/209167122-333e1c1d-4f54-4a87-bc41-f9fc86d45a51.png)|![image](https://user-images.githubusercontent.com/89721794/209167137-b09ed199-b07d-4b30-a08a-2c5f277c673c.png)|   
    
    
-     - 토픽 발행할 때 왼쪽 카메라와 오른쪽 카메라 토픽을 두 개로 나누어 구분    
+   * 토픽 발행할 때 왼쪽 카메라와 오른쪽 카메라 토픽을 두 개로 나누어 구분    
 ![image](https://user-images.githubusercontent.com/89721794/209167439-4f3aac2e-ed02-49ac-aeb9-e6d6a79f173b.png)      
 
 
