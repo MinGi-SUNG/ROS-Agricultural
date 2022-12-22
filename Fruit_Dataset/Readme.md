@@ -24,3 +24,9 @@
 |--|--|
 |![image](https://user-images.githubusercontent.com/89721794/209165289-75309987-6728-46f4-b9ee-c30422f9f74b.png)|![image](https://user-images.githubusercontent.com/89721794/209165296-6c257319-ac6b-47a3-9c23-df41917a6da7.png)|
 
+* 학습
+  - 각 클래스별 데이터 약 500개
+  - ‘batch size = 4 / epochs = 100’으로 진행
+  - 앞선 학습에서 나타난 문제를 해결하기 위해 데이터를 추가
+        * 검출할 객체와 비슷한 색을 배경으로한 데이터 추가
+        * 다양한 각도에서 촬영한 데이터를 추가
