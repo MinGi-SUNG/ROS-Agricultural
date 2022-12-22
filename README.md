@@ -69,4 +69,18 @@
    * 주행 부분: <https://github.com/MinGi-SUNG/ROS-Agricultural/tree/main/contest>
    * 데이터 학습 부분: <https://github.com/MinGi-SUNG/ROS-Agricultural/tree/main/Fruit_Dataset>
    * 영상처리 부분 : <https://github.com/MinGi-SUNG/ROS-Agricultural/tree/main/contest>
-  
+   
+   
+>### 다이어그램 (블록다이어그램)
+
+   * 데이터 흐름도   
+![image](https://user-images.githubusercontent.com/89721794/209091895-be11d89c-bbf4-46cb-8b79-cf92f675c329.png)   
+   
+   * 소프트웨어 블록다이어그램   
+![image](https://user-images.githubusercontent.com/89721794/209092006-82851ea5-0780-4208-b1d4-78654d8d2675.png)   
+
+
+>### 참고자료 (수상)
+
+
+
