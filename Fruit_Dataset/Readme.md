@@ -31,7 +31,8 @@
         * 검출할 객체와 비슷한 색을 배경으로한 데이터 추가   
         * 다양한 각도에서 촬영한 데이터를 추가   
 </br>   
-* 모델 학습 결과   
-![image](https://user-images.githubusercontent.com/89721794/209166093-cd2e6ed6-4611-4312-95d6-7f2062cc76f4.png)
+* 모델 학습 결과      
+![image](https://user-images.githubusercontent.com/89721794/209166182-e1aa4d4c-8e1f-4862-b65e-b9e27fc0e067.png)   
+
 
 
