@@ -1,6 +1,6 @@
 # 2022 농업용 로봇 경진대회
 
-<img src="https://user-images.githubusercontent.com/89721794/209078494-b63b9448-6a2b-4558-afd9-8760186de155.png" width="450px" height="300px" title="px(300)" alt="Title"></img><br/>
+<img src="https://user-images.githubusercontent.com/89721794/209078494-b63b9448-6a2b-4558-afd9-8760186de155.png" width="450px" height="600px" title="px(300)" alt="Title"></img><br/>
 
 
 ## 프로젝트
@@ -17,14 +17,11 @@
 ---
 
 ### 프로젝트 소개 & 미션
-<div align="left>
             ####▷ 대회 미션 소개
             ※ 제작한 로봇을 이용하여 과수원 모사 경기장 내의 출발점부터 과수(과수번호 16번)까지 주행하면서 과수 모형에 달린 과일을 검출, 분류, 계수
    <주행 부분> (로봇 임무 제한 시간 5분 이내)
      * 과수 열을 인식하여 열 사이로 충돌 없이 주행해야 함
      * 주행 시간은 로봇의 출발점부터 주행하면서 각 과수의 과일 검출을 끝내고 마지막 과수(과수 번호 16번)까지 통과한 시간으로 측정
-
-</div>
 ![image](https://user-images.githubusercontent.com/89721794/209081987-ad0c63ed-7af1-4269-9a8f-106bc8340564.png)
 
 
