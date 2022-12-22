@@ -81,7 +81,7 @@
    
 <br></br>   
 >### 참고자료 (수상)   
-![image](https://user-images.githubusercontent.com/89721794/209164274-0542bf30-f301-4c13-9ca9-41ac6a0c88d7.png)   
+<img src="https://user-images.githubusercontent.com/89721794/209164274-0542bf30-f301-4c13-9ca9-41ac6a0c88d7.png" width="450px" height="600px" title="px(300)" alt="Title"></img><br/>   
 
    * 수상 기사 : <http://www.jbnu.ac.kr/kor/?menuID=143&mode=view&no=6414>
 
