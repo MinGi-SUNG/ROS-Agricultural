@@ -62,3 +62,11 @@
    
    ▷ 최종 하드웨어(터틀봇 사용)   
    ![image](https://user-images.githubusercontent.com/89721794/209090541-add76396-8749-4029-8633-258c96fe4e81.png)
+   
+   
+>### 실행   
+   
+   * 주행 부분: <https://github.com/MinGi-SUNG/ROS-Agricultural/tree/main/contest>
+   * 데이터 학습 부분: <https://github.com/MinGi-SUNG/ROS-Agricultural/tree/main/Fruit_Dataset>
+   * 영상처리 부분 : <https://github.com/MinGi-SUNG/ROS-Agricultural/tree/main/contest>
+  
