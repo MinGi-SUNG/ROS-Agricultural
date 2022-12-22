@@ -22,7 +22,5 @@
     
 | 이미지 파일 생성 | 데이터 전처리를 통한 데이터셋 생성 |
 |--|--|
-|![image](https://user-images.githubusercontent.com/89721794/209165289-75309987-6728-46f4-b9ee-c30422f9f74b.png)
-|![image](https://user-images.githubusercontent.com/89721794/209165296-6c257319-ac6b-47a3-9c23-df41917a6da7.png)
-|
+|![image](https://user-images.githubusercontent.com/89721794/209165289-75309987-6728-46f4-b9ee-c30422f9f74b.png)|![image](https://user-images.githubusercontent.com/89721794/209165296-6c257319-ac6b-47a3-9c23-df41917a6da7.png)|
 
