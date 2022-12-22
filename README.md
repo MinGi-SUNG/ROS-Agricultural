@@ -80,7 +80,8 @@
 ![image](https://user-images.githubusercontent.com/89721794/209092006-82851ea5-0780-4208-b1d4-78654d8d2675.png)   
    
 <br></br>   
->### 참고자료 (수상)
+>### 참고자료 (수상)   
+![image](https://user-images.githubusercontent.com/89721794/209164274-0542bf30-f301-4c13-9ca9-41ac6a0c88d7.png)   
 
-
+   * 수상 기사 : <http://www.jbnu.ac.kr/kor/?menuID=143&mode=view&no=6414>
 
