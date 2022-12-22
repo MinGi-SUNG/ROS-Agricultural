@@ -58,7 +58,7 @@
    ▷ 사용 OS   
   - Remote PC : Ubuntu 20.04 Desktop   
   - RaspberryPi4 8GB : Ubuntu 20.04 Server
-  - ROS noetic Version 사용  
-
-   ▷ 최종 하드웨어(터틀봇 사용)
+  - ROS noetic Version 사용     
+   
+   ▷ 최종 하드웨어(터틀봇 사용)   
    ![image](https://user-images.githubusercontent.com/89721794/209090541-add76396-8749-4029-8633-258c96fe4e81.png)
