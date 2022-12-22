@@ -47,12 +47,12 @@
     * 각 팀별 임무 시작전에 사무국에서 로봇 USB 포트에 USB를 삽입할 예정이며, 임무 수행전에 과일 검출 결과는 USB에 아래와 같은 형태로 자동 저장 되어야 함.   
 ![image](https://user-images.githubusercontent.com/89721794/209085699-ecf5f1e2-a1c5-4b07-8f05-0bc1b0348c72.png)   
 
-
+<br></br> 
 >### 프로젝트 계획표
 * 본선 준비기간 : 2022.07.25. ~ 2022.09.01. 
 ![image](https://user-images.githubusercontent.com/89721794/209088416-4fbfd9d8-2b6e-491d-98e4-5ddc0df8355b.png)
 
-
+<br></br> 
 >### 환경 구성(설치)
 
    ▷ 사용 OS   
@@ -63,14 +63,14 @@
    ▷ 최종 하드웨어(터틀봇 사용)   
    ![image](https://user-images.githubusercontent.com/89721794/209090541-add76396-8749-4029-8633-258c96fe4e81.png)
    
-   
+<br></br>    
 >### 실행   
    
    * 주행 부분: <https://github.com/MinGi-SUNG/ROS-Agricultural/tree/main/contest>
    * 데이터 학습 부분: <https://github.com/MinGi-SUNG/ROS-Agricultural/tree/main/Fruit_Dataset>
    * 영상처리 부분 : <https://github.com/MinGi-SUNG/ROS-Agricultural/tree/main/contest>
    
-   
+<br></br>    
 >### 다이어그램 (블록다이어그램)
 
    * 데이터 흐름도   
