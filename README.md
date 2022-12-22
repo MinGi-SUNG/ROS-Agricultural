@@ -55,7 +55,7 @@
 
 >### 환경 구성(설치)
 
-    #### 사용 OS   
+-   #### 사용 OS   
   - Remote PC : Ubuntu 20.04 Desktop   
   - RaspberryPi4 8GB : Ubuntu 20.04 Server
   - ROS noetic Version 사용  
