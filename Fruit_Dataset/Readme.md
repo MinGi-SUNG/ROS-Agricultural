@@ -47,11 +47,11 @@
      - model : 학습 결과가 담긴 pt 파일을 넣어 토픽으로 받아오는 것을 성공   
 ![image](https://user-images.githubusercontent.com/89721794/209166989-c686f8ca-d129-488c-8614-5e0aed76bb5b.png)   
 
-| 학습 모델 적용 전 | 학습 모델 적용 후 |
+| 학습 모델 적용 전 | 학습 모델 적용 후 결과 |
 |--|--|
-|![image](https://user-images.githubusercontent.com/89721794/209167122-333e1c1d-4f54-4a87-bc41-f9fc86d45a51.png)
-|![image](https://user-images.githubusercontent.com/89721794/209167137-b09ed199-b07d-4b30-a08a-2c5f277c673c.png)
-|   
+|![image](https://user-images.githubusercontent.com/89721794/209167122-333e1c1d-4f54-4a87-bc41-f9fc86d45a51.png)|![image](https://user-images.githubusercontent.com/89721794/209167137-b09ed199-b07d-4b30-a08a-2c5f277c673c.png)|   
+
+
 
 
      
