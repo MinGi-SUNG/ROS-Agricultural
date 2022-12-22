@@ -1,6 +1,6 @@
 # 2022 농업용 로봇 경진대회
 
-<img src="(https://user-images.githubusercontent.com/89721794/209078494-b63b9448-6a2b-4558-afd9-8760186de155.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="Title"></img><br/>
+<img src="(https://user-images.githubusercontent.com/89721794/209078494-b63b9448-6a2b-4558-afd9-8760186de155.png" width="450px" height="300px" title="px(300)" alt="Title"></img><br/>
 
 
 ## 프로젝트
