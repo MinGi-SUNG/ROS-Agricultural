@@ -37,5 +37,22 @@
 
 <br></br>
 ### 적용   
+   
+   * ~/catkin_ws/src/yolov5_ros 패키지에 학습시킨 모델을 추가
+     - ‘~/catkin_ws/src/yolov5_ros/yolov5/’에서 data 와 model 파일 수정
+     - data 파일 : train, valid에 쓰인 이미지 삽입
+     - yaml 파일 추가   
+![image](https://user-images.githubusercontent.com/89721794/209166874-3136f890-f621-4510-8d57-16ca87d2c29f.png)   
 
+     - model : 학습 결과가 담긴 pt 파일을 넣어 토픽으로 받아오는 것을 성공   
+![image](https://user-images.githubusercontent.com/89721794/209166989-c686f8ca-d129-488c-8614-5e0aed76bb5b.png)   
+
+| 학습 모델 적용 전 | 학습 모델 적용 후 |
+|--|--|
+|![image](https://user-images.githubusercontent.com/89721794/209167122-333e1c1d-4f54-4a87-bc41-f9fc86d45a51.png)
+|![image](https://user-images.githubusercontent.com/89721794/209167137-b09ed199-b07d-4b30-a08a-2c5f277c673c.png)
+|   
+
+
+     
 
