@@ -78,8 +78,8 @@
    
    * 소프트웨어 블록다이어그램   
 ![image](https://user-images.githubusercontent.com/89721794/209092006-82851ea5-0780-4208-b1d4-78654d8d2675.png)   
-
-
+   
+   
 >### 참고자료 (수상)
 
 
