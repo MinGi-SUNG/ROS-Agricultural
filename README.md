@@ -83,5 +83,5 @@
 >### 추가자료 (수상)   
 <img src="https://user-images.githubusercontent.com/89721794/209164274-0542bf30-f301-4c13-9ca9-41ac6a0c88d7.png" width="450px" height="600px" title="px(300)" alt="Title"></img><br/>   
 
-   * 수상 기사 : <http://www.jbnu.ac.kr/kor/?menuID=143&mode=view&no=6414>
+   * 수상 기사 : <https://www.jbnu.ac.kr/web/Board/98354/detailView.do?pageIndex=1&menu=2382>
 
